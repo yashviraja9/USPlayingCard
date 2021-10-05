@@ -10,12 +10,21 @@ namespace USPlayingCard.Models
     public class Card
     {
         public int Id { get; set; }
+
+        [StringLength(100, MinimumLength = 3), Required]
         public string Title { get; set; }
+
+        [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$"), Required, StringLength(50)]
         public string Brand { get; set; }
+
+        [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$"), Required, StringLength(30)]
         public string Material { get; set; }
 
+        [Range(1, 100), DataType(DataType.Currency), Required]
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
+
+        [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$"), StringLength(5)]
         public float Rating { get; set; }
     }
 }
