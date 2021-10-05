@@ -20,9 +20,33 @@ namespace USPlayingCard.Controllers
         }
 
         // GET: Cards
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string cardBrand, string searchString)
         {
-            return View(await _context.Card.ToListAsync());
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from c in _context.Card
+                                            orderby c.Brand
+                                            select c.Brand;
+
+            var cards = from c in _context.Card
+                         select c;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                cards = cards.Where(s => s.Title.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(cardBrand))
+            {
+                cards = cards.Where(x => x.Brand == cardBrand);
+            }
+
+            var cardBrandVM = new CardBrandViewModel
+            {
+                Brand = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Cards = await cards.ToListAsync()
+            };
+
+            return View(cardBrandVM);
         }
 
         // GET: Cards/Details/5
