@@ -28,7 +28,7 @@ namespace USPlayingCard.Models
                         Material = "Double Weave",
                         Price = 12.49M,
                         Rating = "3",
-                        imageUrl = "../Bicycle.jpg"
+                        ImageUrl = "../Image/Bicycle.jpg"
                     },
                     new Card
                     {
@@ -36,7 +36,8 @@ namespace USPlayingCard.Models
                         Brand = "Naipes Fournier",
                         Material = "Paper",
                         Price = 37.24M,
-                        Rating = "4"
+                        Rating = "4",
+                        ImageUrl = "../Image/Fournier.jpg"
                     },
                     new Card
                     {
@@ -74,7 +75,7 @@ namespace USPlayingCard.Models
                     {
                         Title = "Aviator Heritage Playing Cards",
                         Brand = "Aviator",
-                        Material = "Elasticized-Fabric",
+                        Material = "Elasticized Fabric",
                         Price = 13.95M,
                         Rating = "3"
                     },
