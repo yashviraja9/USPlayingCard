@@ -30,9 +30,6 @@ namespace USPlayingCard.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Material")
                         .IsRequired()
                         .HasMaxLength(30)
@@ -42,7 +39,6 @@ namespace USPlayingCard.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Rating")
-                        .IsRequired()
                         .HasMaxLength(5)
                         .HasColumnType("nvarchar(5)");
 
