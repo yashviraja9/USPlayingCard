@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/USPlayingCard/Migrations/20211006201747_ImageUrl.Designer.cs
+/USPlayingCard/Migrations/20211006201747_ImageUrl.cs
