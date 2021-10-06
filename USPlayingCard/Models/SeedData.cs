@@ -27,7 +27,8 @@ namespace USPlayingCard.Models
                         Brand = "Bicycle",
                         Material = "Double Weave",
                         Price = 12.49M,
-                        Rating = "3"
+                        Rating = "3",
+                        imageUrl = "../Bicycle.jpg"
                     },
                     new Card
                     {
@@ -35,7 +36,7 @@ namespace USPlayingCard.Models
                         Brand = "Naipes Fournier",
                         Material = "Paper",
                         Price = 37.24M,
-                        Rating = "4"       
+                        Rating = "4"
                     },
                     new Card
                     {
