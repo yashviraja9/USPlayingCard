@@ -27,7 +27,7 @@ namespace USPlayingCard.Models
                         Brand = "Bicycle",
                         Material = "Double Weave",
                         Price = 12.49M,
-                        Rating = 3.5F
+                        Rating = "3"
                     },
                     new Card
                     {
@@ -35,14 +35,15 @@ namespace USPlayingCard.Models
                         Brand = "Naipes Fournier",
                         Material = "Paper",
                         Price = 37.24M,
-                        Rating = 3                    },
+                        Rating = "4"       
+                    },
                     new Card
                     {
                         Title = "Bee Jumbo Index Playing Cards",
                         Brand = "Bee",
                         Material = "Double knit fabric",
                         Price = 9.95M,
-                        Rating = 4.5F
+                        Rating = "2"
                     },
                     new Card
                     {
@@ -50,7 +51,7 @@ namespace USPlayingCard.Models
                         Brand = "Tally Ho",
                         Material = "Wooden",
                         Price = 17.39M,
-                        Rating = 4
+                        Rating = "5"
                     },
                     new Card
                     {
@@ -58,7 +59,7 @@ namespace USPlayingCard.Models
                         Brand = "Congress",
                         Material = "Plastic",
                         Price = 21.15M,
-                        Rating = 5
+                        Rating = "1"
                     },
                     new Card
                     {
@@ -66,7 +67,7 @@ namespace USPlayingCard.Models
                         Brand = "Hoyle",
                         Material = "Plastic",
                         Price = 19.95M,
-                        Rating = 2.5F
+                        Rating = "2"
                     },
                     new Card
                     {
@@ -74,7 +75,7 @@ namespace USPlayingCard.Models
                         Brand = "Aviator",
                         Material = "Elasticized-Fabric",
                         Price = 13.95M,
-                        Rating = 2
+                        Rating = "3"
                     },
                      new Card
                      {
@@ -82,7 +83,7 @@ namespace USPlayingCard.Models
                          Brand = "Artisan",
                          Material = "Paper",
                          Price = 13.95M,
-                         Rating = 3.5F
+                         Rating = "4"
                      },
                       new Card
                       {
@@ -90,7 +91,7 @@ namespace USPlayingCard.Models
                           Brand = "Bicycle",
                           Material = "Diamond",
                           Price = 36.99M,
-                          Rating = 1.5F
+                          Rating = "5"
                       },
                        new Card
                        {
@@ -98,7 +99,7 @@ namespace USPlayingCard.Models
                            Brand = "Springbok",
                            Material = "Rubber",
                            Price = 34.95M,
-                           Rating = 1
+                           Rating = "1"
                        }
                 );
                 context.SaveChanges();
