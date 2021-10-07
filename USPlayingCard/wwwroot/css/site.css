@@ -20,6 +20,12 @@ p{
 font-size: 25px;
 }
 
+.image {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;

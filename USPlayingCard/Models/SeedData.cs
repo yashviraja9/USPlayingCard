@@ -28,7 +28,7 @@ namespace USPlayingCard.Models
                         Material = "Double Weave",
                         Price = 12.49M,
                         Rating = "3",
-                        ImageUrl = "../Image/Bicycle.jpg"
+                        ImageUrl = "~/Image/Bicycle.jpg"
                     },
                     new Card
                     {
@@ -37,7 +37,7 @@ namespace USPlayingCard.Models
                         Material = "Paper",
                         Price = 37.24M,
                         Rating = "4",
-                        ImageUrl = "../Image/Fournier.jpg"
+                        ImageUrl = "~/Image/Fournier.jpg"
                     },
                     new Card
                     {
@@ -45,7 +45,8 @@ namespace USPlayingCard.Models
                         Brand = "Bee",
                         Material = "Double knit fabric",
                         Price = 9.95M,
-                        Rating = "2"
+                        Rating = "2",
+                        ImageUrl = "~/Image/Bee.jpg"
                     },
                     new Card
                     {
@@ -53,7 +54,8 @@ namespace USPlayingCard.Models
                         Brand = "Tally Ho",
                         Material = "Wooden",
                         Price = 17.39M,
-                        Rating = "5"
+                        Rating = "5",
+                        ImageUrl = "~/Image/TallyHo.jpg"
                     },
                     new Card
                     {
@@ -61,7 +63,8 @@ namespace USPlayingCard.Models
                         Brand = "Congress",
                         Material = "Plastic",
                         Price = 21.15M,
-                        Rating = "1"
+                        Rating = "1",
+                        ImageUrl = "~/Image/Congress.jpg"
                     },
                     new Card
                     {
@@ -69,7 +72,8 @@ namespace USPlayingCard.Models
                         Brand = "Hoyle",
                         Material = "Plastic",
                         Price = 19.95M,
-                        Rating = "2"
+                        Rating = "2",
+                        ImageUrl = "~/Image/Hoyle.jpg"
                     },
                     new Card
                     {
@@ -77,7 +81,8 @@ namespace USPlayingCard.Models
                         Brand = "Aviator",
                         Material = "Elasticized Fabric",
                         Price = 13.95M,
-                        Rating = "3"
+                        Rating = "3",
+                        ImageUrl = "~/Image/Aviator.jpg"
                     },
                      new Card
                      {
@@ -85,7 +90,8 @@ namespace USPlayingCard.Models
                          Brand = "Artisan",
                          Material = "Paper",
                          Price = 13.95M,
-                         Rating = "4"
+                         Rating = "4",
+                         ImageUrl = "~/Image/Artisan.jpg"
                      },
                       new Card
                       {
@@ -93,7 +99,8 @@ namespace USPlayingCard.Models
                           Brand = "Bicycle",
                           Material = "Diamond",
                           Price = 36.99M,
-                          Rating = "5"
+                          Rating = "5",
+                          ImageUrl = "~/Image/SteamLine.jpg"
                       },
                        new Card
                        {
@@ -101,7 +108,8 @@ namespace USPlayingCard.Models
                            Brand = "Springbok",
                            Material = "Rubber",
                            Price = 34.95M,
-                           Rating = "1"
+                           Rating = "1",
+                           ImageUrl = "~/Image/KEM.jpg"
                        }
                 );
                 context.SaveChanges();
