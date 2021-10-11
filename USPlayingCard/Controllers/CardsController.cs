@@ -22,7 +22,7 @@ namespace USPlayingCard.Controllers
         // GET: Cards
         public async Task<IActionResult> Index(string cardBrand, string searchString)
         {
-            // Use LINQ to get list of genres.
+            // Use LINQ to get list of brands.
             IQueryable<string> genreQuery = from c in _context.Card
                                             orderby c.Brand
                                             select c.Brand;

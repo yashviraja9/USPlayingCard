@@ -5,7 +5,7 @@
     "iisExpress": {
       "applicationUrl": "http://localhost:30410"
       //make sure to uncomment when i want to check at home
-      //"sslPort": 44345 
+      "sslPort": 44345 
     }
   },
   "profiles": {

@@ -18,16 +18,19 @@ namespace USPlayingCard.Controllers
             _logger = logger;
         }
 
+        //index method that return view for the index page
         public IActionResult Index()
         {
             return View();
         }
 
+        //about method that return view for the about page
         public IActionResult About()
         {
             return View();
         }
 
+        //privacy method that return view for the privacy page
         public IActionResult Privacy()
         {
             return View();
