@@ -23,7 +23,7 @@ namespace USPlayingCard.Controllers
         public async Task<IActionResult> Index(string cardBrand, string searchString)
         {
             // Use LINQ to get list of brands.
-            IQueryable<string> genreQuery = from c in _context.Card
+            IQueryable<string> brandQuery = from c in _context.Card
                                             orderby c.Brand
                                             select c.Brand;
 
@@ -42,7 +42,7 @@ namespace USPlayingCard.Controllers
 
             var cardBrandVM = new CardBrandViewModel
             {
-                Brand = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Brand = new SelectList(await brandQuery.Distinct().ToListAsync()),
                 Cards = await cards.ToListAsync()
             };
 
@@ -169,7 +169,7 @@ namespace USPlayingCard.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        //it check if card exits of that id
+        //it checks if card exits of that id when click on edit
         private bool CardExists(int id)
         {
             return _context.Card.Any(e => e.Id == id);
