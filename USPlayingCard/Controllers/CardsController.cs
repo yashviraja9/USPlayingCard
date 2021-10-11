@@ -169,6 +169,7 @@ namespace USPlayingCard.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        //it check if card exits of that id
         private bool CardExists(int id)
         {
             return _context.Card.Any(e => e.Id == id);
