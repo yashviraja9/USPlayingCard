@@ -38,6 +38,12 @@ font-size: 25px;
   border-color: #1861ac;
 }
 
+.logo {
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #808080;
+    font-size: 25px
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
