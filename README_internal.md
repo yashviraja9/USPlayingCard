@@ -64,7 +64,8 @@ Now when I click on  name of the company, it shows error for deployment environm
 
 Oct 9 - 7:30pm – add policy details of the company in policy page of the site.
 
-Oct 13 - 9:35 
+Oct 13 - 9:35 -
 add new link for playing card in header.
-evry time when i first try to run application from any computer, i have to add migration and update database. after that when i update database, sometimes i can not see ImageUrl in database.
+
+every time when i first try to run application from any computer, i have to add migration and update database. after that when i update database, sometimes i can not see ImageUrl in database.
 
