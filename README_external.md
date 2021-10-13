@@ -10,7 +10,7 @@ Program Author: Yashvi Raja
 
 Date Modified: 2021-10-10
 
-Oct 10 – 6:46pm 
+Oct 10 – 6:46pm - 
 When I open application its open default page of the application, which is home page, 
 it displays welcome message and introductory information about The United States Playing Card Company. 
 
