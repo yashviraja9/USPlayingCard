@@ -60,6 +60,11 @@ Add migration for imageUrl and update database. I have to write DbContext name e
 Update card.cs page to display imageUrl filed as Image. And change path of image in seed data. Now add <img src=””> tag in details page to display image. Add height and width of the image in CSS. 
 
 Publish site on azure, first create account on azure (for student starter).
-Now when I click on https://usplayingcard.azurewebsites.net/ name of the company, it shows error for deployment environment should not be enabled for deployed applications.
+Now when I click on  name of the company, it shows error for deployment environment should not be enabled for deployed applications.
 
 Oct 9 - 7:30pm – add policy details of the company in policy page of the site.
+
+Oct 13 - 9:35 
+add new link for playing card in header.
+evry time when i first try to run application from any computer, i have to add migration and update database. after that when i update database, sometimes i can not see ImageUrl in database.
+
